@@ -2,7 +2,7 @@ spring:
   application:
     name: demo2
   datasource:
-    url: jdbc:mysql://mysql-b-2:3306/mydb2
+    url: jdbc:mysql://mysql-b-2-service:3306/mydb2
     username: ${DB_USER}
     password: ${DB_PASSWORD}
   jpa:
