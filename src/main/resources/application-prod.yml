@@ -1,6 +1,10 @@
 spring:
   application:
     name: demo2
+  datasource:
+    url: jdbc:mysql://mysql-b-2:3306/demo2
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
 
 app:
   origin: host
