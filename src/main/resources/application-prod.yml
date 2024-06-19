@@ -28,9 +28,10 @@ management:
   prometheus:
     metrics:
       export:
-#        enabled: true
+        enabled: true
         pushgateway:
-          base-url: http://loki-prometheus-pushgateway:9091
+          base-url: http://loki-prometheus-pushgateway.mon.svc:9091/metrics
+
 
 
 logging:
