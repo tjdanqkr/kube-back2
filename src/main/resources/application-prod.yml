@@ -25,12 +25,12 @@ management:
 #        http:
 #          server:
 #            requests: 'true'
-  prometheus:
-    metrics:
-      export:
-#        enabled: true
-        pushgateway:
-          base-url: http://loki-prometheus-pushgateway:9091
+#  prometheus:
+#    metrics:
+#      export:
+##        enabled: true
+#        pushgateway:
+#          base-url: http://loki-prometheus-pushgateway:9091
 
 
 logging:
