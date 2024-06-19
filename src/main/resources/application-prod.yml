@@ -30,7 +30,7 @@ management:
       export:
         enabled: true
         pushgateway:
-          base-url: http://loki-prometheus-pushgateway.mon.svc:9091/metrics
+          base-url: "http://loki-prometheus-pushgateway.mon.svc:9091"
 
 
 
