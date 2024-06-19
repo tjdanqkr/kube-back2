@@ -18,7 +18,7 @@ endpoints:
       include: prometheus
   metrics:
     tags:
-      application: app
+      application: demo2
     distribution:
       percentiles-histogram:
         http:
