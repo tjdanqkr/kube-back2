@@ -31,7 +31,7 @@ management:
         enabled: true
         pushgateway:
           base-url: "http://loki-prometheus-pushgateway.mon.svc:9091"
-
+          enabled: true
 
 
 logging:
